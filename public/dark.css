@@ -5,3 +5,40 @@ body {
 nav a {
     color: white;
 }
+
+
+header {
+    text-align: center;
+    h1 {
+    font-weight: lighter;
+    font-style: italic;
+    }
+}
+
+footer{
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    form{
+        label{
+            display: block;
+            margin-bottom: 10px;
+            textarea{
+                margin-top: 10px;
+                display: block;
+                margin: auto;
+                width: 400px;
+                height: 200px;
+            }
+        }
+        button{
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 15px;
+            background-color: rgb(42, 42, 242);
+            color: aliceblue;
+        }
+    }
+}
